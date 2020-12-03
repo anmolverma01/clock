@@ -15,4 +15,25 @@ document.getElementById('h').innerHTML=hour;
 document.getElementById('m').innerHTML=min;
 document.getElementById('s').innerHTML=sec;
  }
+ var count=0;
+ function tog()
+ {
+switch(count)
+{
+  case 0:
+  document.getElementById('light').style.backgroundColor="#4d4d4d";
+  document.getElementById('light').style.textAlign="right";
+  document.getElementById('light').style.color="white";
+  document.getElementsByClassName('circle')[0].style.backgroundImage="radial-gradient(#4d4d4d,black)";
+  count++;
+  break;
+  case 1:
+  document.getElementById('light').style.backgroundColor="#cccccc";
+  document.getElementById('light').style.color="#1a1a1a";
+  document.getElementById('light').style.textAlign="left";
+  document.getElementsByClassName('circle')[0].style.backgroundImage="radial-gradient( black,#4d4d4d)";
+  count--;
+  break;
+}
+ }
 setInterval(clock,1000);
