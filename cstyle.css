@@ -1,19 +1,50 @@
 body{
         background-image: radial-gradient( black,#4d4d4d);
 }
-@keyframes transforman
-{
-    
-}
+    .center
+    {
+        width:98%;
+        
 
+    }
+    #light
+    {
+        width:60px;
+        height: 31px;
+        padding-left:2px;
+        padding-right:2px;
+        border:3px solid #cccccc;
+        border-radius: 30px;
+        background-color: #cccccc;
+        font-size: 30px;
+        cursor:pointer;
+        transition: 0.2s;
+        color:#1a1a1a;
+        box-shadow:0px 2px 10px black inset;
+        text-shadow:2px 0px 2px  black ;
+        text-align:left;
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+    #vari1
+    {
+        color:white;
+        padding:5px;
+        font-size:20px;
+        font-family: quicksand;
+        font-weight: 400;
+        letter-spacing: 2px;
+        background-color:#4d4d4d;
+        box-shadow:0px 2px 10px black;
+        border-radius:10px;
+
+    }
 .num
     {
         text-align:center;
         margin-top: 5px;
         position:absolute;
         left:47%;
-
-        
     }
  .num span 
     {
