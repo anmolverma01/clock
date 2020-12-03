@@ -25,6 +25,7 @@ body{
         text-align:left;
         margin-left: 25px;
         margin-top: 15px;
+        margin-bottom:20px;
     }
     #vari1
     {
@@ -159,7 +160,7 @@ body{
 .center
 {
     position:absolute;
-    padding-top:50px;
+    padding-top:15px;
 }
 #digital
 {
@@ -274,5 +275,10 @@ body{
         top:5px;
         margin-top:90px;
         border-radius: 20px;
+    }
+    #vari1
+    {
+        display:none;
+
     }
 }
